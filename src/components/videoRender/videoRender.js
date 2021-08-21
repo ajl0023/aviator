@@ -12,6 +12,7 @@ export const renderVideoPage = (i) => {
           src="https://www.youtube.com/embed/iWGFuMg-RA0?enablejsapi=1&version=3&playerapiid=ytplayer"
           title="YouTube video player"
           id="main-video-player"
+          z-index='5'
           allowfullscreen
         ></iframe>
       </div>
