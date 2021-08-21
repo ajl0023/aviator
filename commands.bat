@@ -1,3 +1,3 @@
 git add .
-git commit -m "finished scroll animation"
+git commit -m "added dist"
 git push origin main
