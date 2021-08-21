@@ -32,7 +32,22 @@ console.log(styles);
 //   },
 // }).mount();
 for (var i = 0, len = elms.length; i < len; i++) {
-  new Splide(elms[i], {
-    height: "auto",
-  }).mount();
+  if (i === 0) {
+    new Splide(elms[i], {
+      height: "auto",
+      classes: {
+        prev: styles["left"],
+        next: styles["right"],
+      },
+    }).mount();
+  } else {
+    new Splide(elms[i], {
+      height: "auto",
+      pagination: false,
+      classes: {
+        prev: styles["hybrid-carousel-left"],
+        next: styles["hybrid-carousel-right"],
+      },
+    }).mount();
+  }
 }

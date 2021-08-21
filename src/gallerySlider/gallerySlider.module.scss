@@ -4,22 +4,20 @@
   height: 100%;
   .gallery-image {
     width: 100%;
-    
+
     object-position: center center;
     object-fit: cover;
   }
 }
 .gallery-container {
-
   left: 50%;
-margin: auto;
-  width: 800px;
+  margin: auto;
+  width: 1194px;
   margin-top: -90px;
-
 }
 .hybrid-gallery-container {
   display: block;
-  width: 800px;
+  width: 1164px;
 }
 .left {
   left: -5em;
@@ -29,4 +27,17 @@ margin: auto;
 }
 .right {
   right: -5em;
+}
+.hybrid-carousel-left {
+  bottom: 0;
+  top: auto;
+  right: 60px;
+  svg {
+    transform: scaleX(-1);
+  }
+}
+.hybrid-carousel-right {
+  bottom: 0;
+  top: auto;
+  right: 20px;
 }

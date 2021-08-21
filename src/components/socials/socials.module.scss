@@ -1,0 +1,22 @@
+.container {
+  z-index: 3;
+
+  width: 100%;
+  padding: 80px;
+  display: flex;
+  justify-content: center;
+  gap: 18px;
+
+  object-fit: cover;
+  .content-container {
+    display: flex;
+    justify-content: space-around;
+    gap: 90px;
+    svg {
+      height: 40px;
+      width: 40px;
+
+      fill: white !important;
+    }
+  }
+}

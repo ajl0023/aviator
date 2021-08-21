@@ -3,7 +3,7 @@
   justify-content: center;
   align-items: center;
   margin-top: 60px;
-  margin-bottom: 400px;
+
   position: relative;
   .content-container {
     display: flex;
@@ -41,11 +41,12 @@
 }
 .banner-container {
   margin: auto;
-  background-color: white;
+
   display: flex;
   width: calc(41.66667% - 2rem);
-  padding-top: 8rem;
+ 
   position: relative;
+
 }
 .banner-content {
   &:after {
@@ -53,7 +54,7 @@
     position: absolute;
     top: -8rem;
 
-    right: -3rem;
+    right: -1rem;
     bottom: -2rem;
     z-index: 1;
     width: 100vw;

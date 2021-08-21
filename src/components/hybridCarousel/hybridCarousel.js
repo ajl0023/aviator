@@ -4,7 +4,7 @@ import { rendergallerySlider } from "../../gallerySlider/gallerySlider";
 
 export const renderhybridCarousel = (fragment) => {
   const element = /* HTML */ `
-    <div class=${styles["container"]}>
+    <div style="margin-top:180px" class=${styles["container"]}>
       <div class=${styles["content-container"]}>
         <div class=${styles["content-image"]}>
           ${rendergallerySlider("hybrid-gallery-container", "hybrid")}

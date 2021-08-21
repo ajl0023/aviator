@@ -1,3 +1,3 @@
 git add .
-git commit -m "lot of progress to current design"
-git push origin main
+git commit -m "site mostly finished"
+git push origin pages

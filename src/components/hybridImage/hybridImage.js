@@ -18,6 +18,7 @@ const eles = [
         it was a fire-rebuilt home, second the challenges of accessibility to
         the site and finally, it must be an “off the grid” home.
       </p>`,
+    classes: "extra-padding",
   },
   {
     img: cayman,
@@ -41,9 +42,16 @@ const eles = [
 ];
 export const renderhybridImage = (i) => {
   const element = /* HTML */ `
-    <div class=${styles["container"]}>
+    <div
+      style=${i === 0 ? "margin-top:200px" : "margin-top:220px"}
+      class=${styles["container"]}
+    >
       <div class=${styles["content-image-container"]}>
-        <img src=${eles[i].img} class=${styles["content-image"]} alt="" />
+        <img
+          src=${eles[i].img}
+          class="${styles["content-image"] + " " + styles[eles[i].classes]}"
+          alt=""
+        />
       </div>
 
       <div class=${styles["banner-container"]}>

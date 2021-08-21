@@ -1,0 +1,30 @@
+.container {
+  z-index: 3;
+  width: 100%;
+  padding: 80px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  gap: 18px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.container .content-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  gap: 90px;
+}
+
+.container .content-container svg {
+  height: 40px;
+  width: 40px;
+  fill: white !important;
+}
+/*# sourceMappingURL=socials.module.css.map */
