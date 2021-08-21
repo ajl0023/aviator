@@ -1,3 +1,3 @@
 git add .
-git commit -m "few styling changes"
+git commit -m "fade in transition"
 git push origin pages

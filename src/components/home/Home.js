@@ -5,11 +5,10 @@ const element = document.createElement("div");
 
 export const renderHome = (fragment) => {
   element.innerHTML = /* HTML */ `
-    
-      <div class=${styles["container"]}>
-        <img class=${styles["logo"]} src=${logo} alt="" />
-      </div>
-
+    <div class=${styles["container"]}>
+      <div class=${styles["fade-cover"]}></div>
+      <img class=${styles["logo"]} src=${logo} alt="" />
+    </div>
   `;
   console.log(element.firstElementChild);
   fragment.appendChild(element.firstElementChild);
