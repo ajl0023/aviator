@@ -1,12 +1,13 @@
 import styles from "./quote.module.scss";
-
-
-const element = document.createElement("div");
+import quote from "../../images/Phoenix Quote.png";
 
 export const renderquote = (fragment) => {
-  
-  element.innerHTML = /* HTML */ `
-    <div></div>
+  const element = /* HTML */ `
+    <div class=${styles["container"]}>
+      <div class=${styles["content-container"]}>
+        <img class=${styles["content-image"]} src=${quote} alt="" />
+      </div>
+    </div>
   `;
-  fragment.appendChild(element.firstElementChild);
+  return element;
 };

@@ -1,0 +1,32 @@
+.image-container {
+  width: 100%;
+  background-color: grey;
+  height: 100%;
+  .gallery-image {
+    width: 100%;
+    
+    object-position: center center;
+    object-fit: cover;
+  }
+}
+.gallery-container {
+
+  left: 50%;
+margin: auto;
+  width: 800px;
+  margin-top: -90px;
+
+}
+.hybrid-gallery-container {
+  display: block;
+  width: 800px;
+}
+.left {
+  left: -5em;
+  svg {
+    transform: scaleX(-1);
+  }
+}
+.right {
+  right: -5em;
+}

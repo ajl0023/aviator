@@ -1,0 +1,78 @@
+.container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 60px;
+  margin-bottom: 400px;
+  position: relative;
+}
+
+.container .content-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  position: relative;
+}
+
+.content-image {
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  height: auto;
+}
+
+.text-content-container {
+  position: relative;
+  z-index: 2;
+  padding-right: 80px;
+  padding-bottom: 30px;
+  width: 400px;
+}
+
+.text-content-container h5 {
+  font-size: 42.84px;
+  text-align: right;
+  padding-left: 15px;
+  color: #860016;
+  padding-bottom: 40px;
+}
+
+.text-content-container p {
+  margin-bottom: 20px;
+  line-height: 1.3;
+  font-size: 18px;
+  text-align: left;
+}
+
+.banner-container {
+  margin: auto;
+  background-color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: calc(41.66667% - 2rem);
+  padding-top: 8rem;
+  position: relative;
+}
+
+.banner-content:after {
+  content: "";
+  position: absolute;
+  top: -8rem;
+  right: -3rem;
+  bottom: -2rem;
+  z-index: 1;
+  width: 100vw;
+  background-color: #fff;
+}
+/*# sourceMappingURL=hybridCarousel.module.css.map */

@@ -1,0 +1,52 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+@font-face {
+  font-family: "Capsuula";
+  src: url("./src/fonts/Capsuula.ttf") format("trueType");
+}
+
+body {
+  overflow-x: hidden;
+  width: 100vw;
+  height: 100vh;
+  background-color: black;
+  font-family: Capsuula;
+}
+
+.grid-container .small-bg-white .medium-pt-128 .pt-80 {
+  font-size: 16px;
+  font-family: Avenir, Helvetica, Arial, sans-serif;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  --swiper-theme-color: #007aff;
+  --swiper-navigation-size: 44px;
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding-right: 2rem;
+  padding-left: 2rem;
+  max-width: 90rem;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 8rem;
+}
+
+.grid-x .grid-margin-x {
+  font-size: 16px;
+  font-family: Avenir, Helvetica, Arial, sans-serif;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  --swiper-theme-color: #007aff;
+  --swiper-navigation-size: 44px;
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+/*# sourceMappingURL=main.css.map */

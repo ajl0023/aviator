@@ -1,0 +1,39 @@
+.image-container {
+  width: 100%;
+  background-color: grey;
+  height: 100%;
+}
+
+.image-container .gallery-image {
+  width: 100%;
+  -o-object-position: center center;
+     object-position: center center;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.gallery-container {
+  left: 50%;
+  margin: auto;
+  width: 800px;
+  margin-top: -90px;
+}
+
+.hybrid-gallery-container {
+  display: block;
+  width: 800px;
+}
+
+.left {
+  left: -5em;
+}
+
+.left svg {
+  -webkit-transform: scaleX(-1);
+          transform: scaleX(-1);
+}
+
+.right {
+  right: -5em;
+}
+/*# sourceMappingURL=gallerySlider.module.css.map */

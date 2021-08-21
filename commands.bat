@@ -1,3 +1,3 @@
 git add .
-git commit -m "added public folder for vercel"
+git commit -m "lot of progress to current design"
 git push origin main

@@ -1,20 +1,22 @@
 .nav-wrapper {
   position: fixed;
   width: 100%;
-  z-index: 2;
+  z-index: 5;
   .container {
     top: 0;
     width: 100%;
     display: flex;
+    
     justify-content: center;
 
     .content-container {
-      padding: 20px;
+      padding: 30px;
     }
 
     object-fit: cover;
     .logo-container {
-      width: 120px;
+      width: 200px;
+
       svg {
         opacity: 70%;
         fill: white;
