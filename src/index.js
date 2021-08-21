@@ -16,11 +16,11 @@ renderHome(docFrag);
 renderwrapper(docFrag);
 document.body.appendChild(docFrag);
 require("./scrollAnimation");
-console.log(document.querySelector("div.splide"));
+
 
 const styles = require("./gallerySlider/gallerySlider.module.scss").default;
 var elms = document.getElementsByClassName("splide");
-console.log(styles);
+
 // new Splide(".splide", {
 //   height: "auto",
 //   arrows: "false",

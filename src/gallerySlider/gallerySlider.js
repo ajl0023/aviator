@@ -1,8 +1,9 @@
 import styles from "./gallerySlider.module.scss";
 const cache = {};
-const bluePrintImagesCache = {};
+
 function importAll(imports) {
   imports.forEach((r) => {
+    
     r.keys().forEach((key) => (cache[key] = r(key)));
   });
 }
@@ -30,7 +31,7 @@ export const rendergallerySlider = (className, location) => {
   const container = document.createElement("div");
   container.innerHTML = element;
   const sliderContainer = container.getElementsByTagName("ul");
-  console.log(location === "hybrid" ? 5 : renders.length, "testing");
+  
   for (
     let i = location === "hybrid" ? 5 : 0;
     i < (location === "hybrid" ? renders.length - 1 : 5);

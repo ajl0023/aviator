@@ -12,7 +12,7 @@ function importAll(r) {
 importAll(require.context("./images", false, /\.(png|jpe?g|svg)$/));
 
 const imagesArr = Object.entries(cache).map((module) => module[0]);
-console.log(imagesArr);
+
 export const renderSocialBar = (fragment) => {
   const element = /* HTML */ `
     <div class=${styles["container"]}>

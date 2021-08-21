@@ -10,6 +10,6 @@ export const renderHome = (fragment) => {
       <img class=${styles["logo"]} src=${logo} alt="" />
     </div>
   `;
-  console.log(element.firstElementChild);
+  
   fragment.appendChild(element.firstElementChild);
 };

@@ -9,6 +9,7 @@
       -ms-flex-align: center;
           align-items: center;
   height: 100%;
+  background-color: #f9f7f7;
   position: relative;
 }
 
