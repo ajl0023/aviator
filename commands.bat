@@ -1,3 +1,3 @@
 git add .
-git commit -m "site mostly finished"
+git commit -m "few styling changes"
 git push origin pages
