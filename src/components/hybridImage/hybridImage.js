@@ -55,9 +55,8 @@ export const renderhybridImage = (i) => {
       </div>
 
       <div class=${styles["banner-container"]}>
-        <div class=${styles["banner-content"]}>
-          <div class=${styles["text-content-container"]}>${eles[i].text}</div>
-        </div>
+        <div class=${styles["placeholder"]}></div>
+        <div class=${styles["text-container"]}>${eles[i].text}</div>
       </div>
     </div>
   `;

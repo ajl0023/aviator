@@ -1,12 +1,53 @@
 .container {
-  justify-content: center;
-  align-items: center;
-  width: 100vw;
-
+  display: block;
 }
-.extra-padding{
+.banner-container {
+  display: flex;
+
+  .placeholder {
+    width: calc(25% - 2rem);
+    margin: calc(8.33333% + 1rem);
+  }
+  .text-container {
+    position: relative;
+
+    margin-bottom: 8px;
+    max-width: 28rem;
+    color: black;
+    z-index: 3;
+    display: block;
+    top: -4rem;
+    width: calc(41.66667% - 2rem);
+
+    &::after {
+      content: "";
+      top: -8rem;
+      width: 100vw;
+      position: absolute;
+      bottom: -10rem;
+      top: -6rem;
+      left: -7.5rem;
+      z-index: -1;
+      background-color: white;
+    }
+    p {
+      margin-bottom: 20px;
+      line-height: 1.3;
+      font-size: 18px;
+      text-align: left;
+    }
+    h5 {
+      font-size: 42.84px;
+      text-align: left;
+      padding-left: 15px;
+      color: #860016;
+      padding-bottom: 40px;
+    }
+  }
+}
+.extra-padding {
   display: none;
-   padding-right: 60px;
+  padding-right: 60px;
 }
 .content-image-container {
   width: 1317px;
@@ -19,72 +60,5 @@
     margin-top: -4rem;
     object-position: center center;
     object-fit: cover;
-  }
-}
-.text-container {
-  overflow: visible;
-
-  /* left:auto; */
-  /* right:-3rem; */
-
-  z-index: -1;
-
-  position: relative;
-  background-color: white;
-
-  border: 1px solid rgba(0, 1, 2, 0.226);
-  margin-left: 1rem;
-  margin-right: 1rem;
-  top: -12rem;
-  &::after {
-    content: "";
-    position: absolute;
-    top: -8rem;
-
-    bottom: -13rem;
-    z-index: -1;
-    width: 100vw;
-    background-color: #fff;
-  }
-}
-.text-content-container {
-  position: relative;
-  z-index: 2;
-  padding-left: 60px;
- 
-  h5 {
-    font-size: 42.84px;
-    text-align: left;
-    padding-left: 15px;
-    color: #860016;
-    padding-bottom: 40px;
-  }
-  width: 400px;
-  p {
-    margin-bottom: 20px;
-    line-height: 1.3;
-    font-size: 18px;
-    text-align: left;
-  }
-}
-.banner-container {
-  margin: auto;
-  background-color: white;
-  display: flex;
-  width: calc(41.66667% - 2rem);
-
-  position: relative;
-}
-.banner-content {
-  &:after {
-    content: "";
-    position: absolute;
-    top: -4rem;
-    left: auto;
-    /* right: -3rem; */
-    bottom: -2rem;
-    z-index: 1;
-    width: 100vw;
-    background-color: #fff;
   }
 }

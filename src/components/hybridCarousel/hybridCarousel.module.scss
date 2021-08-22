@@ -1,63 +1,64 @@
 .container {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin-top: 60px;
-
-  position: relative;
-  .content-container {
-    display: flex;
-    flex-direction: column;
-    position: relative;
-  }
-}
-.content-image {
-  width: 100%;
-  object-fit: cover;
-  height: auto;
-}
-
-.text-content-container {
-  position: relative;
-  z-index: 2;
-
-  padding-right: 80px;
-  padding-bottom: 30px;
-
-  h5 {
-    font-size: 42.84px;
-    text-align: right;
-    padding-left: 15px;
-    color: #860016;
-    padding-bottom: 40px;
-  }
-  width: 400px;
-  p {
-    margin-bottom: 20px;
-    line-height: 1.3;
-    font-size: 18px;
-    text-align: left;
-  }
+  display: block;
 }
 .banner-container {
-  margin: auto;
-
   display: flex;
-  width: calc(41.66667% - 2rem);
- 
-  position: relative;
 
+  .placeholder {
+    width: calc(25% - 2rem);
+    margin: calc(8.33333% + 1rem);
+  }
+  .text-container {
+    position: relative;
+
+    margin-bottom: 8px;
+    max-width: 28rem;
+    color: black;
+    z-index: 3;
+    display: block;
+    top: -4rem;
+    width: calc(41.66667% - 2rem);
+
+    &::after {
+      content: "";
+      top: -8rem;
+      width: 100vw;
+      position: absolute;
+      bottom: -10rem;
+      top: -6rem;
+      right: -7.5rem;
+      z-index: -1;
+      background-color: white;
+    }
+    p {
+      margin-bottom: 20px;
+      line-height: 1.3;
+      font-size: 18px;
+      text-align: left;
+    }
+    h5 {
+      font-size: 42.84px;
+      text-align: left;
+      padding-left: 15px;
+      color: #860016;
+      padding-bottom: 40px;
+    }
+  }
 }
-.banner-content {
-  &:after {
-    content: "";
-    position: absolute;
-    top: -8rem;
-
-    right: -1rem;
-    bottom: -2rem;
-    z-index: 1;
-    width: 100vw;
-    background-color: #fff;
+.extra-padding {
+  display: none;
+  padding-right: 60px;
+}
+.content-container {
+  width: 1317px;
+  height: 40rem;
+  margin: auto;
+  .content-image {
+    display: block;
+    width: 100%;
+    height: 100%;
+    margin-top: -4rem;
+    object-position: center center;
+    object-fit: cover;
   }
 }
