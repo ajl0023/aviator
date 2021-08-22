@@ -1,10 +1,10 @@
-import styles from "./wrapper.module.scss";
-import { renderquote } from "../quote/quote";
 import { rendergallerySlider } from "../../gallerySlider/gallerySlider";
-import { renderhybridImage } from "../hybridImage/hybridImage";
 import { renderhybridCarousel } from "../hybridCarousel/hybridCarousel";
-import { renderVideoPage } from "../videoRender/videoRender";
+import { renderhybridImage } from "../hybridImage/hybridImage";
+import { renderquote } from "../quote/quote";
 import { renderSocialBar } from "../socials/socials";
+import { renderVideoPage } from "../videoRender/videoRender";
+import styles from "./wrapper.module.scss";
 
 const element = document.createElement("div");
 

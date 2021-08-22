@@ -20,5 +20,7 @@
 .content-container {
 
   background-color: #f9f7f7;
-  padding: auto 80px auto 80px;
+  display: flex;
+  flex-direction: column;
+  gap: 156px;
 }

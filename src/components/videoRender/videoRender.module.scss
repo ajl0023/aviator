@@ -1,5 +1,7 @@
 .container {
   display: block;
+  max-width: 90em;
+  margin: 0 auto;
 }
 .banner-container {
   display: flex;
@@ -7,7 +9,7 @@
   .placeholder {
     width: calc(25% - 2rem);
     margin-left: calc(8.33333% + 1rem);
-    margin-top: calc(8.33333% + 3rem);
+    margin-top: calc(8.33333% + 5rem);
   }
   .text-container {
     position: relative;
@@ -17,9 +19,9 @@
     color: black;
     z-index: 1;
     display: block;
-    top: 10rem;
+    top: 6rem;
     right: auto;
-    margin-top: 2rem;
+    margin-top: -1.5rem;
     width: calc(41.66667% - 2rem);
 
     &::after {
@@ -28,7 +30,7 @@
       width: 100vw;
       position: absolute;
       bottom: -10rem;
-      top: -1rem;
+      top: -6rem;
       right: -7.5rem;
       z-index: -1;
       background-color: white;

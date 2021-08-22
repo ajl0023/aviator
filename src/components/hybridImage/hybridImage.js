@@ -1,6 +1,6 @@
-import styles from "./hybridImage.module.scss";
 import fireImage from "../../images/Goodyear-WoolseyFire.jpg";
 import cayman from "../../images/renders/CAYMAN AVIATOR 20210722 (6).jpg";
+import styles from "./hybridImage.module.scss";
 const eles = [
   {
     img: fireImage,
@@ -43,7 +43,7 @@ const eles = [
 export const renderhybridImage = (i) => {
   const element = /* HTML */ `
     <div
-      style=${i === 0 ? "margin-top:200px" : "margin-top:220px"}
+   
       class=${styles["container"]}
     >
       <div class=${styles["content-image-container"]}>

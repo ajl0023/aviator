@@ -1,5 +1,5 @@
-import styles from "./quote.module.scss";
 import quote from "../../images/Phoenix Quote.png";
+import styles from "./quote.module.scss";
 
 export const renderquote = (fragment) => {
   const element = /* HTML */ `

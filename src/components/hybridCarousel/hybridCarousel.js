@@ -1,10 +1,9 @@
-import styles from "./hybridCarousel.module.scss";
-import fireImage from "../../images/Goodyear-WoolseyFire.jpg";
 import { rendergallerySlider } from "../../gallerySlider/gallerySlider";
+import styles from "./hybridCarousel.module.scss";
 
 export const renderhybridCarousel = (fragment) => {
   const element = /* HTML */ `
-    <div style="margin-top:230px" class=${styles["container"]}>
+    <div class=${styles["container"]}>
       <div class=${styles["content-container"]}>
         <div class=${styles["content-image"]}>
           ${rendergallerySlider("hybrid-gallery-container", "hybrid")}

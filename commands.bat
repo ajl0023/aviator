@@ -1,2 +1,2 @@
 
-  git add . && git commit -m "renamed to index.html" && git push origin pages
+  git add . && git commit -m "fixed spacing issues" && git push origin pages

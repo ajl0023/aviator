@@ -1,6 +1,5 @@
-import styles from "./Home.module.scss";
-import homeImg from "../../images/home.jpg";
 import logo from "../../images/Alec Aviator Logo.png";
+import styles from "./Home.module.scss";
 const element = document.createElement("div");
 
 export const renderHome = (fragment) => {
