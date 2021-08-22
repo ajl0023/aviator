@@ -1,2 +1,2 @@
 
-npm run build &&  git add . && git commit -m "redesigned banners completely" && git push origin pages
+npm run build &&  git add . && git commit -m "background color change" && git push origin pages
