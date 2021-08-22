@@ -1,8 +1,8 @@
-import styles from "./socials.module.scss";
 import facebook from "./images/facebook.svg";
 import instagram from "./images/instagram.svg";
 import linkedin from "./images/linkedin.svg";
 import twitter from "./images/twitter.svg";
+import styles from "./socials.module.scss";
 const cache = {};
 
 function importAll(r) {

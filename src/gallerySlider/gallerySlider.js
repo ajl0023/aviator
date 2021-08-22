@@ -3,7 +3,6 @@ const cache = {};
 
 function importAll(imports) {
   imports.forEach((r) => {
-    
     r.keys().forEach((key) => (cache[key] = r(key)));
   });
 }
@@ -31,7 +30,7 @@ export const rendergallerySlider = (className, location) => {
   const container = document.createElement("div");
   container.innerHTML = element;
   const sliderContainer = container.getElementsByTagName("ul");
-  
+
   for (
     let i = location === "hybrid" ? 5 : 0;
     i < (location === "hybrid" ? renders.length - 1 : 5);
@@ -46,6 +45,6 @@ export const rendergallerySlider = (className, location) => {
     container.innerHTML = slide;
     sliderContainer[0].appendChild(container.firstElementChild);
   }
-
+  console.log(container.firstElementChild.outerHTML);
   return container.firstElementChild.outerHTML;
 };

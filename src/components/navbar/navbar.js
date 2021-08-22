@@ -1,5 +1,5 @@
-import styles from "./navbar.module.scss";
 import logo from "../../images/logo.svg";
+import styles from "./navbar.module.scss";
 const element = document.createElement("div");
 
 export const renderNav = (fragment) => {
