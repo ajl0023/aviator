@@ -1,2 +1,2 @@
 
-  git add . && git commit -m "fixed spacing issues and created static file" && git push origin pages
+  git add . && git commit -m "fixed" && git push origin pages
