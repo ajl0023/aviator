@@ -24,19 +24,16 @@ const eles = [
     img: cayman,
     text: /* HTML */ `<h5>The Impact</h5>
       <p>
-        Conceptually, Apel Design wanted to create the notion that the
-        architecture of building continues beyond, in a sense, the forms flow
-        throughout and never stop. The architecture forms emerge from the ground
-        extent to the horizon and divide into two beautiful irregular volumetric
-        elements as if the architecture was slicing the space emphasizing the
-        gorgeous views of the Malibu mountains and the Pacific Ocean.
+        Apel Design designed this project to have minimal environmental impact,
+        this off-grid house will fully be powered by solar and biodiesel. The
+        project will implement the latest technology to power the house. All the
+        materials use will be LEED compliant to assure rigorous and
+        implementation environmentally friendly materials.
       </p>
       <p>
-        The bird-like building program also incorporates the ideas of flow and
-        continuation; the first level proposes an open floor plan with a glass
-        facade that opens up the space to beautiful deck and a second floor for
-        bedroom that are elevated from the ground to again emphasize this notion
-        of flow and lightness.
+        The Iconic Aviator at Malibu will be a seamless design and cutting-edge
+        technological exploration that is sensible to the site and creates this
+        balance of nature and man-made.
       </p>`,
   },
 ];

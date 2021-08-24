@@ -1,9 +1,10 @@
 .nav-wrapper {
   position: fixed;
-  width: 100%;
+  width: 100vw;
   z-index: 5;
   .container {
     top: 0;
+    left: 0;
     width: 100%;
     display: flex;
 

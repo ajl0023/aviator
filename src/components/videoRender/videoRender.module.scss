@@ -1,6 +1,7 @@
 .container {
   display: block;
-  max-width: 90em;
+  max-width: 1317px;
+  width: 100%;
   margin: 0 auto;
 }
 .banner-container {
@@ -13,7 +14,7 @@
   }
   .text-container {
     position: relative;
-    background-color: green;
+
     margin-bottom: 8px;
     max-width: 28rem;
     color: black;
@@ -25,6 +26,10 @@
     width: calc(41.66667% - 2rem);
 
     &::after {
+      @media (max-width: 580px) {
+        display: none;
+        height: 20rem;
+      }
       content: "";
 
       width: 100vw;
@@ -55,8 +60,13 @@
   padding-right: 60px;
 }
 .content-image-container {
-  width: 1317px;
   height: 40rem;
+  @media (max-width: 808px) {
+    height: 20rem;
+  }
+  @media (max-width: 457px) {
+    height: 100%;
+  }
   margin: auto;
   z-index: 1;
   position: relative;

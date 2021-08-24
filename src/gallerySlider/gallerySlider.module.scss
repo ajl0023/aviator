@@ -10,14 +10,19 @@
   }
 }
 .gallery-container {
-  left: 50%;
   margin: auto;
-  width: 1194px;
+  width: 100%;
+  max-width: 1194px;
+
   margin-top: -90px;
+  @media (max-width: 580px) {
+    display: none;
+    height: 20rem;
+    margin-top: 0px;
+  }
 }
 .hybrid-gallery-container {
   display: block;
-  width: 1164px;
 }
 .left {
   left: -5em;

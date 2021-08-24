@@ -1,26 +1,30 @@
 .container {
-
-
+  padding: 60px;
   width: 100%;
   position: relative;
   z-index: 4;
   height: 100%;
-  
+  overflow-x: hidden;
+  background-color: #f9f7f7;
 }
 .scroll-header {
   position: fixed;
   top: -130px;
 
+  left: 0;
+  right: auto;
   transition: all 0.4s ease;
   background-color: white;
   height: 130px;
-  width: 100%;
+  width: 100vw;
   z-index: 6;
 }
 .content-container {
-
-  background-color: #f9f7f7;
   display: flex;
+
   flex-direction: column;
   gap: 156px;
+  @media (max-width: 580px){
+    gap: 40px;
+  }
 }

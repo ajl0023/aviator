@@ -1,5 +1,7 @@
 .container {
-  display: block;  max-width: 86em;
+  display: block;
+  width: 100%;
+  max-width: 1194px;
   margin: 0 auto;
 }
 .banner-container {
@@ -8,6 +10,9 @@
   .placeholder {
     width: calc(25% - 2rem);
     margin: calc(8.33333% + 1rem);
+    @media (max-width: 580px) {
+      display: none;
+    }
   }
   .text-container {
     position: relative;
@@ -19,17 +24,29 @@
     display: block;
     top: -4rem;
     width: calc(41.66667% - 2rem);
+    @media (max-width: 580px) {
+      padding-top: 20px;
+
+      text-align: center;
+    }
 
     &::after {
-    content: "";
-    top: 6rem;
-    width: 100vw;
-    position: absolute;
-    bottom: -4rem;
-    top: -6rem;
-    right: -3.5rem;
-    z-index: -1;
-    background-color: white;
+      content: "";
+      top: 6rem;
+      width: 100vw;
+      position: absolute;
+      bottom: -4rem;
+      top: -6rem;
+      right: -3.5rem;
+      z-index: -1;
+      background-color: white;
+      @media (max-width: 870px) {
+        top: -2rem;
+        right: -0.5rem;
+      }
+      @media (max-width: 580px) {
+        display: none;
+      }
     }
     p {
       margin-bottom: 20px;
@@ -44,6 +61,13 @@
       color: #860016;
       padding-bottom: 40px;
     }
+    @media (max-width: 580px) {
+      top: 0rem;
+      width: 100%;
+      h5 {
+        text-align: center;
+      }
+    }
   }
 }
 .extra-padding {
@@ -51,9 +75,9 @@
   padding-right: 60px;
 }
 .content-container {
-  width: 1317px;
-  height: 40rem;
   margin: auto;
+  width: 100%;
+  background-color: grey;
   .content-image {
     display: block;
     width: 100%;

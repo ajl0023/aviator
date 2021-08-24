@@ -1,12 +1,10 @@
 .container {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 100%;
-    background-color: #f9f7f7;
+  margin: auto;
+  background-color: #f9f7f7;
   position: relative;
+  margin-top: 10%;
+  margin-bottom: 10%;
   .content-container {
-    width: 800px;
   }
 }
 .content-image {

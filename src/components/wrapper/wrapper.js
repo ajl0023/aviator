@@ -12,9 +12,11 @@ export const renderwrapper = (fragment) => {
   element.innerHTML = /* HTML */ `
     <div class=${styles["container"]}>
       <div id="scroll-header" class=${styles["scroll-header"]}></div>
-      ${renderquote()}
       <div class=${styles["content-container"]}>
-        ${rendergallerySlider("gallery-container", "")} ${renderhybridImage(0)}
+        ${renderquote()}${rendergallerySlider(
+          "gallery-container",
+          ""
+        )}${renderhybridImage(0)}
         ${renderhybridCarousel()} ${renderhybridImage(1)} ${renderVideoPage()}
         ${renderSocialBar()}
       </div>
@@ -23,3 +25,8 @@ export const renderwrapper = (fragment) => {
   fragment.appendChild(element.firstElementChild);
 };
 //         //
+//  <div class=${styles["content-container"]}>
+//         ${rendergallerySlider("gallery-container", "")}
+//
+//         ${renderSocialBar()}
+//       </div>
