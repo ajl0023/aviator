@@ -33,7 +33,7 @@ export const rendergallerySlider = (className, location) => {
 
   for (
     let i = location === "hybrid" ? 5 : 0;
-    i < (location === "hybrid" ? renders.length - 1 : 5);
+    i < (location === "hybrid" ? renders.length : 5);
     i++
   ) {
     const container = document.createElement("div");
