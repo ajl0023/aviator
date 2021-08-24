@@ -7,7 +7,9 @@ export const renderNav = (fragment) => {
     <div class=${styles["nav-wrapper"]}>
       <nav name="nav-container" class=${styles["container"]}>
         <div class=${styles["content-container"]}>
-          <div class=${styles["logo-container"]}>${logo}</div>
+          <div class=${styles["logo-container"]}>
+            <a href="https://www.apeldesign.com/"> ${logo}</a>
+          </div>
         </div>
       </nav>
     </div>
